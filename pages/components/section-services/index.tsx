@@ -31,12 +31,11 @@ const SectionServices = () => {
     };
   }, []);
   return (
-    <section className={styles.section}>
+    <section id="SectionServices" className={styles.section}>
       <div className={styles.divTitle}>
         {" "}
         <h2>Serviços</h2>
       </div>
-
       <div className={styles.carousel}>
         <Swiper
           slidesPerView={count}

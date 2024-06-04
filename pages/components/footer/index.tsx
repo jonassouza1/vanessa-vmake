@@ -2,13 +2,21 @@ import styles from "styles/footer/Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer id="footer" className={styles.footer}>
       <ul className={styles.ul}>
         <li>
           <a href=""></a>
         </li>
         <li>
-          <a href=""></a>
+          <a
+            href="https://www.instagram.com/vanessabraaun_vmake/"
+            target="_blank"
+          >
+            <i
+              className="fa-brands fa-square-instagram"
+              style={{ color: "#de0d45" }}
+            ></i>
+          </a>
         </li>
         <li>
           <a

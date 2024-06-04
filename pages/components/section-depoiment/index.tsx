@@ -12,7 +12,7 @@ const SectionDepoiments = () => {
 
   useEffect(() => {
     const handleResize = async () => {
-      if (window.innerWidth < 530) {
+      if (window.innerWidth < 430) {
         setCount(1);
       } else {
         setCount(2);
@@ -26,10 +26,11 @@ const SectionDepoiments = () => {
     };
   }, []);
   return (
-    <section className={styles.section}>
+    <section id="SectionDepoiments" className={styles.section}>
+      <div className={styles.gradient}></div>
       <div className={styles.divTitle}>
         {" "}
-        <h2>Depoimentos</h2>
+        <h2>DEPOIMENTOS</h2>
       </div>
 
       <div className={styles.carousel}>
@@ -45,7 +46,6 @@ const SectionDepoiments = () => {
           ))}
         </Swiper>
       </div>
-      <div className={styles.gradient}></div>
     </section>
   );
 };

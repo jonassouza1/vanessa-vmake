@@ -83,7 +83,9 @@ input:checked~label .hamburger::after {
     transition: 0.3s;
     text-decoration: none;
     color: #fff;
+    transition: 0.4s;
 }
+
 
 .ul2 i {
     font-size: 16px;
@@ -116,7 +118,7 @@ input:checked~label .hamburger::after {
     }
 
     .ul2 li a:hover {
-        background-color: #475666;
+        color: rgb(253, 198, 57);
     }
 
     .container {

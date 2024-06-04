@@ -5,9 +5,9 @@ const Nav = () => {
     <nav className={styles.nav}>
       <ul className={styles.ul}>
         <li>
-          <a href="#serviços">Serviços</a>
-          <a href="#Depoimentos">Depoimentos</a>
-          <a href="#contato">Contato</a>
+          <a href="#SectionServices">Serviços</a>
+          <a href="#SectionDepoiments">Depoimentos</a>
+          <a href="#footer">Contato</a>
         </li>
       </ul>
       <NavResponsive />

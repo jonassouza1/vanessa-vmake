@@ -13,6 +13,7 @@ const SectionPublicity = () => {
       <div className={styles.divImg}>
         <img src="./olhos.jpg" alt="vanessa" />
       </div>
+      <div className={styles.gradient}></div>
     </section>
   );
 };

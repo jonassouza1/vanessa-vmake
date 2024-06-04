@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 600px;
+    align-items: center;
+    height: 700px;
     position: relative;
-    background-color: #01234d;
+    background-color: #516de9;
 }
 
 .divTitle {
@@ -14,28 +15,28 @@
 
 }
 
+.divTitle h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #010102;
+}
+
 .carousel {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-position: center top;
+    width: 95%;
     height: 500px;
 }
 
 .carousel img {
-    width: 100%;
+    max-width: 100%;
+    height: 400px;
     object-fit: cover;
 }
 
 
-.gradient {
-    display: block;
-    background: linear-gradient(180deg, transparent, #000914);
-    bottom: 0;
-    height: 30%;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-}
 
 .carousel span {
     height: 7px;
@@ -45,4 +46,38 @@
     position: relative;
     bottom: 150px;
     z-index: 0;
+}
+
+.gradient {
+    display: block;
+    background: linear-gradient(360deg, transparent, #e0dddd);
+    top: 0;
+    height: 16%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (max-width:450px) {
+    .carousel img {
+        width: 270px;
+        height: 100%;
+    }
+
+    .divTitle {
+        max-width: 100%;
+    }
+
+    .divTitle h2 {
+        font-size: 40px;
+
+    }
+}
+
+@media (max-width:320px) {
+    .divTitle h2 {
+        font-size: 30px;
+
+    }
 }

@@ -8,13 +8,20 @@ const SectionAbout = () => {
           <span>Q</span>
           <span>U</span>
           <span>E</span>
-          <span>M</span> É VANESSA BRAUM
+          <span>M</span> É
         </h1>
+        <h3> VANESSA BRAUM</h3>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, vero
-          nemo excepturi ipsum animi, ex illum similique, iste molestias saepe
-          nisi omnis eveniet quibusdam. Eos architecto aut in vitae totam!
+          Há cinco anos, embarquei na jornada da beleza. Comecei com um curso de
+          maquiagem e design de sobrancelhas no renomado Instituto Mix,
+          concluído em 2021. Desde então, tenho me dedicado a aprimorar minhas
+          habilidades e oferecer serviços de alta qualidade. Com uma
+          sensibilidade estética apurada e um compromisso com a excelência,
+          participo de cursos e workshops para estar sempre atualizada com as
+          últimas tendências. Cada atendimento é realizado com profissionalismo
+          e atenção aos detalhes, garantindo resultados que encantam e superam
+          as expectativas.
         </p>
       </div>
 
