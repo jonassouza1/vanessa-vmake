@@ -1,0 +1,29 @@
+ .ul {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+
+ }
+
+ .ul li a {
+     text-decoration: none;
+     border-radius: 5px;
+     padding: 10px 14px;
+     margin-left: 5px;
+     font-size: 20px;
+     transition: 0.4s;
+     color: rgb(167, 125, 19);
+ }
+
+ .ul li a:hover {
+     color: goldenrod;
+     background-color: rgb(45, 52, 68);
+ }
+
+ @media (max-width:900px) {
+
+     .ul {
+         display: none;
+     }
+
+ }
