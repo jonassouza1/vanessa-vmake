@@ -18,9 +18,9 @@ const NavResponsive = () => {
 
       <ul className={styles.ul2}>
         <li>
-          <a href="##">Serviços</a>
-          <a href="##">Depoimentos</a>
-          <a href="##">Contato</a>
+          <a href="#SectionServices">Serviços</a>
+          <a href="#SectionDepoiments">Depoimentos</a>
+          <a href="#footer">Contato</a>
         </li>
       </ul>
     </div>
