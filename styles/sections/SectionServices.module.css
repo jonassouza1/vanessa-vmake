@@ -47,6 +47,17 @@
     display: block;
     background: linear-gradient(180deg, transparent, #dddad4);
     bottom: 0;
+    height: 20%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.gradient1 {
+    display: block;
+    background: linear-gradient(360deg, transparent, #dfc0a7);
+    top: 0;
     height: 30%;
     left: 0;
     position: absolute;

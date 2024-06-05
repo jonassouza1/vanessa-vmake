@@ -35,17 +35,7 @@
 }
 
 
-.gradient {
-    display: block;
-    background: linear-gradient(360deg, transparent, #dfc0a7);
-    bottom: -50px;
-    height: 30%;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
 
-}
 
 @media (max-width:950px) {
 
@@ -104,10 +94,6 @@
 }
 
 @media (max-width:393px) {
-
-    .gradient {
-        bottom: -160px;
-    }
 
 
     .divTitle .h1 {

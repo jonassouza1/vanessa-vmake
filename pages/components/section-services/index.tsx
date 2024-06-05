@@ -45,6 +45,7 @@ const SectionServices = () => {
   }, []);
   return (
     <section id="SectionServices" className={styles.section}>
+      <div className={styles.gradient1}></div>
       <div className={styles.divTitle}>
         {" "}
         <h2>Serviços</h2>

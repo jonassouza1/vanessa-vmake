@@ -9,8 +9,6 @@ const SectionPublicity = () => {
         <h3 className={styles.h1}>DESIGN</h3>
         <h2>PERFEITO DAS SUAS SOBRANCELHAS.</h2>
       </div>
-
-      <div className={styles.gradient}></div>
     </section>
   );
 };
