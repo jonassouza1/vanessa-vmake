@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image: url('/publicity.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,13 +34,14 @@
 
 .gradient {
     display: block;
-    background: linear-gradient(360deg, transparent, #ffffff);
-    bottom: 0;
-    height: 35%;
+    background: linear-gradient(360deg, transparent, #bc8c65);
+    bottom: 160px;
+    height: 10%;
     left: 0;
     position: absolute;
     width: 100%;
     z-index: 1;
+
 }
 
 @media (max-width:950px) {
@@ -48,26 +49,21 @@
     .section {
         flex-direction: column;
     }
+
+
+
 }
 
 @media (max-width:580px) {
 
-    .divImg {
-        width: 400px;
-        max-height: 100%;
-    }
 
     .divTitle {
-        width: 400px;
+        max-width: 400px;
     }
+
 }
 
-@media (max-width:440px) {
-
-    .divImg {
-        width: 350px;
-        max-height: 100%;
-    }
+@media (max-width:430px) {
 
     .divTitle {
         width: 290px;
@@ -76,9 +72,15 @@
     .divTitle .h1 {
         font-size: 45px;
     }
+
+    .gradient {
+        bottom: -10px;
+    }
+
+
 }
 
-@media (max-width:390px) {
+@media (max-width:393px) {
 
 
     .divTitle {
@@ -93,5 +95,10 @@
     .divTitle h2 {
         font-size: 30px;
     }
+
+    .gradient {
+        bottom: -60px;
+    }
+
 
 }

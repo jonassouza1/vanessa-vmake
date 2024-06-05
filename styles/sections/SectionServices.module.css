@@ -1,16 +1,19 @@
 .section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 800px;
+    justify-content: space-evenly;
+    height: 700px;
     position: relative;
-    background-color: #bdbdbd;
+    background-color: #ffffff;
+
 }
 
 .divTitle {
     display: flex;
     justify-content: center;
     width: 100%;
+
+
 
 }
 
@@ -38,7 +41,7 @@
 
 .gradient {
     display: block;
-    background: linear-gradient(180deg, transparent, #2b2826);
+    background: linear-gradient(180deg, transparent, #3d3a3a);
     bottom: 0;
     height: 30%;
     left: 0;
