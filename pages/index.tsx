@@ -10,6 +10,7 @@ import SectionServices from "./components/section-services";
 import SectionDepoiments from "./components/section-depoiment";
 import SectionAbout from "./components/section-about";
 import Footer from "./components/footer";
+import SectionCertificate from "./components/section-certificate";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <SectionPublicity />
       <SectionServices />
       <SectionAbout />
+      <SectionCertificate />
       <SectionDepoiments />
       <Footer />
     </>

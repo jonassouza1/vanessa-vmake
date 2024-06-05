@@ -46,7 +46,7 @@
     z-index: 3;
     letter-spacing: 2px;
 
-    background-color: rgb(247, 247, 247);
+    background-color: #fff;
     border-radius: 10px;
     opacity: 1;
 
@@ -110,13 +110,12 @@
 
 .divImg {
     width: 500px;
-    border-radius: 5px;
+
 
 }
 
 .divImg img {
-    width: 100%;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 
@@ -195,5 +194,9 @@
 
     .divImg {
         width: 95%;
+    }
+
+    .divImg img {
+        height: 380px;
     }
 }

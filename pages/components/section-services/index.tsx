@@ -7,20 +7,33 @@ const SectionServices = () => {
     { id: "1", image: "/client1.jpg" },
     { id: "2", image: "/client2.jpg" },
     { id: "3", image: "/client3.jpg" },
+    { id: "4", image: "/client4.jpg" },
+    { id: "5", image: "/client5.jpg" },
+    { id: "6", image: "/client6.jpg" },
+    { id: "7", image: "/client7.jpg" },
+    { id: "8", image: "/client8.jpg" },
+    { id: "9", image: "/client9.jpg" },
+    { id: "10", image: "/client10.jpg" },
   ];
 
-  const [count, setCount] = useState<number>(3);
+  const [count, setCount] = useState<number>(5);
 
   useEffect(() => {
     const handleResize = async () => {
-      if (window.innerWidth < 700) {
-        setCount(2);
+      if (window.innerWidth < 1330) {
+        setCount(4);
 
-        if (window.innerWidth < 530) {
+        if (window.innerWidth < 1120) {
+          setCount(3);
+        }
+        if (window.innerWidth < 820) {
+          setCount(2);
+        }
+        if (window.innerWidth < 520) {
           setCount(1);
         }
       } else {
-        setCount(3);
+        setCount(5);
       }
     };
     handleResize();
