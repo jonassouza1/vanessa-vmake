@@ -10,9 +10,6 @@ const SectionPublicity = () => {
         <h2>PERFEITO DAS SUAS SOBRANCELHAS.</h2>
       </div>
 
-      <div className={styles.divImg}>
-        <img src="./olhos.jpg" alt="vanessa" />
-      </div>
       <div className={styles.gradient}></div>
     </section>
   );

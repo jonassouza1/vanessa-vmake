@@ -16,32 +16,40 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    height: 800px;
+    height: 400px;
     width: 500px;
+}
+
+.divTitle h1 {
+    color: #b98153;
+    font-size: 40px;
 }
 
 .divTitle span {
     font-weight: 400;
     font-size: 40px;
 
+
 }
 
 .divTitle h3 {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 400;
-    color: #a06c0c;
+    color: #c99117;
     letter-spacing: 2px;
 }
 
 .divTitle p {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 19px;
+    color: rgb(59, 58, 58);
     z-index: 3;
     letter-spacing: 2px;
     box-shadow: 10px 10px 20px rgb(0, 0, 0);
-    background-color: rgb(196, 195, 195);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     opacity: 0.9;
+    font-family: raleway;
+
 
 }
 
@@ -114,43 +122,39 @@
 
     .section {
         flex-direction: column;
-        height: 1200px;
-        justify-content: center;
+        height: 1100px;
+        justify-content: space-between;
 
     }
 
     .divTitle {
         justify-content: space-around;
-        height: 700px;
+        height: 500px;
         width: 400px;
-    }
-
-    .divTitle p {
-        font-size: 20px;
-
     }
 
     .divImg {
         width: 400px;
+
     }
 }
 
 @media (max-width:440px) {
     .section {
         justify-content: space-between;
-        height: 1300px;
+        height: 1100px;
 
     }
 
     .divTitle {
-        justify-content: flex-start;
-        height: 500px;
+        justify-content: space-evenly;
+        height: 800px;
         width: 300px;
 
     }
 
     .divTitle h3 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .divImg {
@@ -168,23 +172,13 @@
     .divTitle {
         max-width: 95%;
 
-
-
-
     }
 
     .divTitle p {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .divImg {
         width: 95%;
     }
-}
-
-@media (max-width:280px) {
-    .divTitle p {
-        font-size: 17px;
-    }
-
 }
