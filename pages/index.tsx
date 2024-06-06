@@ -11,6 +11,7 @@ import SectionDepoiments from "./components/section-depoiment";
 import SectionAbout from "./components/section-about";
 import Footer from "./components/footer";
 import SectionCertificate from "./components/section-certification";
+import SectionListServices from "./components/section-list-services";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Header />
       <SectionPublicity />
       <SectionServices />
+      <SectionListServices />
       <SectionAbout />
       <SectionCertificate />
       <SectionDepoiments />
