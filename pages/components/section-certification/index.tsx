@@ -6,8 +6,11 @@ const SectionCertificate = () => {
   const images = [
     { id: "1", image: "/certificate1.jpg" },
     { id: "2", image: "/certificate2.jpg" },
-    { id: "1", image: "/certificate3.jpg" },
-    { id: "2", image: "/certificate4.jpg" },
+    { id: "3", image: "/certificate3.jpg" },
+    { id: "4", image: "/certificate4.jpg" },
+    { id: "5", image: "/certificate5.jpg" },
+    { id: "6", image: "/certificate6.jpg" },
+    { id: "7", image: "/certificate7.jpg" },
   ];
 
   const [count, setCount] = useState<number>(4);
