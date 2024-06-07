@@ -4,10 +4,10 @@ const SectionPublicity = () => {
   return (
     <section className={styles.section}>
       <div className={styles.divTitle}>
-        <h1 className={styles.h1}>REVELAMOS</h1>
-        <h2>SUA VERDADEIRA CONFIANÇA COM O</h2>
-        <h3 className={styles.h1}>DESIGN</h3>
-        <h2>PERFEITO DAS SUAS SOBRANCELHAS.</h2>
+        <h2>TRAGO SEU</h2>
+        <h1 className={styles.h1}>AMOR PRÓPRIO</h1>
+        <h2>ATRAVÉS DAS</h2>
+        <h3 className={styles.h1}>PINÇAS E PINCÉIS</h3>
       </div>
     </section>
   );
